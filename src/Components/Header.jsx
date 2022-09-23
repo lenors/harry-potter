@@ -3,21 +3,26 @@ import { BrowserRouter, Routes, Route, link } from "react-router-dom";
 import Main from "./Main";
 import Icon from "../assets/Icon.png";
 import { GlobalStyles } from "../Styles/Globalstyled";
+import * as S from "../Styles/Styled-Header";
 
 const Header = () => {
-  return (  
+  return (
     <BrowserRouter>
-      <div>
-      <GlobalStyles/>
-        <img src={Icon} alt="" />
+      <S.Header>
+        <GlobalStyles />
+
+        <S.img2 src={Icon} alt="" />
+        <h1>Harry Poter</h1>
         <nav>
-          <ul>
-            <li>Inicio</li>
-            <li>Historia</li>
-            <li>Casas</li>
-          </ul>
+          <S.nav>
+            <S.Hover>Inicio </S.Hover>
+            <S.Hover>
+              <a href="https://www.livrobingo.com.br/harry-potter">Historia</a>
+            </S.Hover>
+            <S.Hover><a href="https://segredosdomundo.r7.com/casas-de-hogwarts/">Casas</a></S.Hover>
+          </S.nav>
         </nav>
-      </div>
+      </S.Header>
       <Main />
     </BrowserRouter>
   );
