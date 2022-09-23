@@ -12,7 +12,7 @@ export const nav = styled.ul`
   font-size: 26px;
   list-style: none;
   margin-top: 2vw;
-  border: solid;
+
   left: 39vw;
 `;
 
