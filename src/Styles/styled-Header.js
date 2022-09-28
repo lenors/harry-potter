@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Header = styled.div`
   display: flex;
@@ -21,11 +22,16 @@ export const img2 = styled.img`
   margin-left: 5vh;
 `;
 export const Hover = styled.li`
+  text-decoration: none;
   width: 22vw;
-  :hover {
+  a:hover{
     transform: scale(1);
     transition: ease-in-out 0.5s;
     width: 27vw;
     color: green;
+    
   }
+ 
 `;
+
+

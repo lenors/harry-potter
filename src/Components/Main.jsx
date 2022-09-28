@@ -19,7 +19,7 @@ const Main = () => {
 
   return (
     <S.Caixa2>
-      {card.map((item) => (
+      {card.splice(0,10).map((item) => (
         <S.Caixa>
           <figure>
             <S.Imagem src={item.image} alt="" />

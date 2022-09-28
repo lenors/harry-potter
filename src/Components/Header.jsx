@@ -17,7 +17,7 @@ const Header = () => {
           <S.nav>
             <S.Hover>Inicio </S.Hover>
             <S.Hover>
-              <a href="https://www.livrobingo.com.br/harry-potter">Historia</a>
+              <a style={{textDecoration:`none`}} href="https://www.livrobingo.com.br/harry-potter">Historia</a>
             </S.Hover>
             <S.Hover><a href="https://segredosdomundo.r7.com/casas-de-hogwarts/">Casas</a></S.Hover>
           </S.nav>
