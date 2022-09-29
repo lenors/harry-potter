@@ -12,7 +12,7 @@ const Header = () => {
         <GlobalStyles />
 
         <S.img2 src={Icon} alt="" />
-        <h1>Harry Poter</h1>
+        <S.Legacy>Hogwarts Legacy</S.Legacy>
         <nav>
           <S.nav>
             <S.Hover>Inicio </S.Hover>

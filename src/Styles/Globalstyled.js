@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import Background from "../assets/Background.jpg"
+import Responsivo from "../assets/Responsivo.jpg"
 
 export const GlobalStyles = createGlobalStyle`
 *{
@@ -13,6 +14,11 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: 100%;
+    @media(max-width: 768px){
+        background-image:url(${Responsivo});
+        background-size:150%;
+        background-attachment:fixed;
+    }
 }
 
 }
