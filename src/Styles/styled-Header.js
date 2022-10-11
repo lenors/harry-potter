@@ -28,7 +28,7 @@ export const img2 = styled.img`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 13vh;
+    margin-left: 13=vh;
   }
 `;
 export const Hover = styled.li`
