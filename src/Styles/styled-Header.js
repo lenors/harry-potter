@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+
 
 export const Header = styled.div`
   display: flex;
@@ -28,7 +28,7 @@ export const img2 = styled.img`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 13=vh;
+    margin-left: 13vh;
   }
 `;
 export const Hover = styled.li`
