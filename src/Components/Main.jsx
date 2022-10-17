@@ -6,8 +6,7 @@ const Main = () => {
   const [card, setCard] = useState([]);
 
   useEffect(() => {
-    axios
-      .get(" https://hp-api.herokuapp.com/api/characters")
+    axios.get(" https://hp-api.herokuapp.com/api/characters")
       .then((res) => {
         setCard(res.data);
         console.log(res);
