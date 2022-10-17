@@ -8,6 +8,7 @@ margin:0;
 padding:0;
 box-sizing: border-box;
 font-family: 'Harry Potter', sans-serif;
+
 body{
     background-image:url(${Background});
     background-repeat: no-repeat;
@@ -20,7 +21,10 @@ body{
         background-attachment:fixed;
     }
 }
-
+a{
+    text-decoration:none;
+}
 }
 `
+
 
