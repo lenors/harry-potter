@@ -43,10 +43,10 @@ export const Hover = styled.li`
 `;
 
 export const Legacy = styled.h1`
-  display: flex;
+  
   margin-bottom: 2vw;
   align-items: center;
-  font-size: 9vh;
+  font-size: 8vh;
   @media (max-width: 768px) {
     display: none;
   }

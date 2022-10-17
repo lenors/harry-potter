@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, link } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Main from "./Main";
 import Icon from "../assets/Icon.png";
 import { GlobalStyles } from "../Styles/Globalstyled";
