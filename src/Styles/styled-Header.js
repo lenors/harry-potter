@@ -5,7 +5,7 @@ export const Header = styled.div`
   display: flex;
   flex-direction: row;
 `;
-export const nav = styled.ul`
+export const Nav = styled.ul`
   width: 50vw;
   position: absolute;
   display: flex;
@@ -20,7 +20,7 @@ export const nav = styled.ul`
   left: 39vw;
 `;
 
-export const img2 = styled.img`
+export const Img2 = styled.img`
   width: 8%;
   margin-left: 5vh;
   @media (max-width: 768px) {
