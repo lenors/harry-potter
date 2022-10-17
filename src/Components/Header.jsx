@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import Icon from "../assets/Icon.png";
-import * as S from "../Styles/Styled-Header";
+import * as S from "../Styles/StyledHeader";
 
 const Header = () => {
   return (

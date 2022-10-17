@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-import * as S from "../Styles/Styled-main";
+import * as S from "../Styles/StyledMain";
 
 const Main = () => {
   const [card, setCard] = useState([]);
